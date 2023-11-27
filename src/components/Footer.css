@@ -1,0 +1,98 @@
+.footer{
+    padding: 4rem 6rem; 
+    background: #000;
+    color: #fff;
+}
+.top{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 1.5rem;
+}
+.top i{
+    color: #fff;
+    font-size: 4rem;
+    margin-left: 1rem;
+}
+.top i:hover{
+    color: #01959a;
+
+}
+.bottom{
+    padding-top: 2rem;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.bottom div{
+    display: flex;
+    flex-direction: column;
+}
+.bottom h4{
+    font-size: 2rem;
+    padding: 1rem 10rem .8rem 0;
+}
+.bottom a{
+    text-decoration: none;
+    color: #fafafa;
+    padding-bottom: .4rem;
+    font-size: 1.2rem;
+}
+.footer-content .logo{
+    height: 30rem;
+    width: 60rem;
+}
+.footer-content {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+.footer-title{
+    color: rgba(255, 255, 255, 0.75);
+    text-transform: capitalize;
+}
+.info{
+    color: white;
+    margin: 10px 0;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+.footer-title{
+    margin-top: 50px;
+    font-size: 22px;
+    color: #fff;
+}
+
+.footer-social-container{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-link{
+    color: #fff;
+    margin-left: 20px;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+.social-link:nth-child(1){
+    margin-left: 0;
+    font-size: 1.1rem;
+}
+
+.footer-credit{
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    left: 0;
+    bottom: 0;
+    background-color:gray;
+    text-align: center;
+    color: black;
+}
