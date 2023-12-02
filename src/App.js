@@ -7,6 +7,7 @@ import Login from './routes/Login';
 import Contact from './routes/Contact';
 import Coding from './routes/Coding';
 import Assignments from './routes/Assignments';
+import EventRegister from './routes/EventRegister';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Route path="/" element={<Home/>} />
         <Route path="/discussions" element={<Discussions/>} />
         <Route path="/events" element={<Events/>} />
+        <Route path="/EventRegister" element={<EventRegister/>} />
         <Route path="/assignments" element={<Assignments/>} />
         <Route path="/coding" element={<Coding/>} />
         <Route path="/contact" element={<Contact/>} />

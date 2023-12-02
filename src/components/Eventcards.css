@@ -31,6 +31,49 @@ h1{
     transition: 0.3s ease-in-out;
     border-radius: 7px;
 }
+.temp_image h2{
+    opacity: 0;
+    font-size: 30px;
+    transition: 0.3s ease-in-out;
+}
+.temp_image p{
+    opacity: 0;
+    font-size: 20px;
+    font-weight: bold;
+    width: -10%;
+    height: 1500%;
+    text-align: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+}
+.hack-head{
+    opacity: 0;
+    width: -10%;
+    height: 1200%;
+    text-align: center;
+    justify-content: center;
+    transition: 0.5s ease-in-out;
+}
 .temp_image:hover img{
     transform: scale(1.1);
+    opacity: 0.5;
+}
+.temp_image:hover p{
+    opacity: 1;
+    color: darkblue;
+    transform: scale(1.1);
+}
+.temp_image:hover h2{
+    opacity: 1;
+    color: black;
+    transform: scale(1.1);
+}
+.temp_image:hover .hack-head{
+    opacity: 1;
+    color: black;
+    transform: scale(1.1);
+}
+.temp_image button:hover{
+    color: white;
+    background-color: black;
 }

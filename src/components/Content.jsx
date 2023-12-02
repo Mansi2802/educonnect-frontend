@@ -1,7 +1,7 @@
 import pic1 from "../img/discuss1.jpg"
 import pic2 from "../img/discuss2.jpg"
 import pic3 from "../img/events3.jpg"
-import pic4 from "../img/events2.jpg"
+import pic4 from "../img/events1.jpg"
 import pic5 from "../img/assignment1.jpeg"
 import pic6 from "../img/assignment3.jpeg"
 import "./Content.css";
@@ -42,16 +42,14 @@ const Content = () => {
                 />
                 <Contentdata
                 className="first-des"
-                heading="Assignment Submission"
-                text1="An assignment submission portal tailored for college students streamlines the process of academic task management. 
-                It's a digital lifeline, simplifying the often complex journey of submitting assignments, papers, and projects.
-                 This portal offers students a clear and organized platform where deadlines, instructions, and submission requirements are readily accessible.
-                  It promotes efficiency, reducing the risk of missed deadlines 
-                and ensuring that students can focus on their coursework rather than the logistics of submission."
+                heading="Practice DSA Ques & Submit Assignments"
+                text1="Introducing a dynamic online learning platform tailored to empower students in mastering Data Structures and Algorithms (DSA).
+                 This innovative platform provides a comprehensive space for students to practice a wide array of DSA questions and submit assignments seamlessly.
+                  With an extensive repository of curated problems spanning various difficulty levels, students can enhance their problem-solving skills and algorithmic thinking. 
+                  The platform incorporates real-time evaluation features, offering instant feedback to help students gauge their proficiency and identify areas for improvement. "
                 
-                text2="Additionally, it provides instructors with a centralized platform for evaluating and providing feedback, enhancing the 
-                learning experience. In the ever-evolving landscape of higher education, an assignment submission portal becomes an indispensable tool,
-                 easing the administrative burdens and allowing students to channel their energies into the pursuit of knowledge and personal growth."
+                text2="Additionally, interactive discussions and collaborative forums foster a vibrant community where students can learn from each other and seek assistance when needed.
+                The platform's user-friendly interface ensures a smooth learning experience, making it an invaluable resource for students striving to excel in DSA and elevate their programming capabilities."
                 img1={pic5}
                 img2={pic6}
                 />

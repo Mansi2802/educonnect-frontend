@@ -3,9 +3,7 @@ import Programdata from "./ProgramData";
 import "./Programs.css"
 import pic1 from "../img/discuss.jpeg"
 import pic2 from "../img/event.jpeg"
-import pic3 from "../img/assignment.jpeg"
-import pic4 from "../img/assignment.jpeg"
-// import pic4 from "../img/pic_donate.jpg"
+import pic3 from "../img/dsa2.jpg"
 
 function Programs()
 {
@@ -18,27 +16,20 @@ function Programs()
             image={pic1}
             heading="Discussion Forum"
             text="A platform for students to engage in conversations, share opinions, and discuss various topics of interest "
-            
+            link="/discussions"
             />
             <Programdata
             image={pic2}
             heading="Events"
             text="A platform for students to discover, discuss and coordinate various events and activities "
-            
+            link="/events"
             />
             <Programdata
             image={pic3}
-            heading="Assignment Submission"
-            text="A platform enabling students to submit academic assignments and for teachers to receive, review and grade them "
-            
+            heading="DSA Practice"
+            text="A platform where students can practice dsa questions and submit assignments for evaluating their skills "
+            link="/coding"
             />
-             {/* <Programdata
-            image={pic4}
-            heading="Coding"
-            text="A coding practice portal is an online platform or website designed to help programmers and developers 
-            enhance their coding skills, problem-solving abilities, and programming knowledge. "
-            
-            />  */}
             </div>
         </div>
     );

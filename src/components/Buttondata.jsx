@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from "react";
-
+import Card from "../components/Card";
 
 function ButtonData(props)
 {
@@ -13,8 +13,15 @@ function ButtonData(props)
     let toggleClassCheck = btnState ? 'active':null;
     return(
         <>
-            <button className={`btn ${toggleClassCheck}`} onClick={handleClick}>
+            <center>
+            <button className={`btn ${toggleClassCheck} eve-reg-btn`} onClick={handleClick}>
             {props.heading}</button>
+            <div className='bar'>
+                {
+                    toggleClassCheck?<Card/>:null
+                }
+            </div>
+            </center>
         </> 
     )
 }

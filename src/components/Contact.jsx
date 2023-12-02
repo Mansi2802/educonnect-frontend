@@ -5,7 +5,7 @@ function Contact()
 {
     return(
         <>
-            <div className="form-container">
+            <div className="form-container1">
                 <h1>Send a message to us!</h1>
                 <form>
                     <input placeholder="Name"/>

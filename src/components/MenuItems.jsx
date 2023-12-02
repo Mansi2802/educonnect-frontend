@@ -17,11 +17,11 @@ export const MenuItems =[
         cName : "nav-links",
         icon : "FaBriefcase"
     },
-    { title : "Assignments",
-    url : "/assignments",
-    cName : "nav-links",
-    icon : "FaAddressBook"
-    },
+    // { title : "Assignments",
+    // url : "/assignments",
+    // cName : "nav-links",
+    // icon : "FaAddressBook"
+    // },
     {
         title : "Coding",
         url : "/coding",

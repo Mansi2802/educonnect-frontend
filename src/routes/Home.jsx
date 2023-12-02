@@ -6,10 +6,11 @@ import Slider from "../components/Slider";
 import React from 'react';
 import { useLocation,useNavigate } from "react-router-dom";
 function Home() {
-    const location=useLocation()
+    const location = useLocation();
+    const state = location.state;
     return(
         <>
-        <Navbar/>
+        <Navbar email = {state?state.id: " "} />
         <Slider/>
         {/* <Hero
         cName="hero"
